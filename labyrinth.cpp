@@ -4,7 +4,8 @@ using state = pair<int,int> ;
     vector<char> pp;
 #define int long long 
 int n,m;int dx[] = {1,0,-1,0}; int dy[] = {0,-1,0,1};
-char path[] = {'D', 'L', 'U' , 'R'};
+char path[] = {'D', 'L', 'U' , 'R'}; // again this was important as , its not 2D plane like x, y but rather x varies in Y and y varies in X
+// thing to be notes
 map<state, state> mp;
 state start; 
 state en;
